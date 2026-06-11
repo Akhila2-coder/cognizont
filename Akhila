@@ -1,0 +1,125 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 3,
+   "id": "6234400e-791a-437a-bb98-4f716e1dfb38",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Hello\n"
+     ]
+    }
+   ],
+   "source": [
+    "print(\"Hello\")"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 1,
+   "id": "fa66335d-a217-49b4-88da-9baa258ac2f2",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "red\n",
+      "BMW\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Car:\n",
+    "    colour=\"red\"\n",
+    "    brand=\"BMW\"\n",
+    "    SPEED=120\n",
+    "print(Car.colour)\n",
+    "print(Car.brand)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 83,
+   "id": "a84f51e6-bc8f-4c76-be91-7a28042c40b1",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "Akhila\n",
+      "22\n"
+     ]
+    }
+   ],
+   "source": [
+    "class student:\n",
+    "    def __init__(self,name,age):\n",
+    "     self.name = name\n",
+    "     self.age = age\n",
+    "\n",
+    "s1=student(\"Akhila\",22)\n",
+    "print(s1.name)\n",
+    "print(s1.age)"
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "bf0a9c0c-88a3-45ea-815e-ba808b7e1a1a",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "2f14b375-8b7f-4f7b-b1d9-68872d8d228d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "9c9bfaa0-8e14-4958-960b-3030e4698b7b",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "888de3e2-d890-49db-9e89-9f279872bbe7",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}

@@ -1,0 +1,184 @@
+{
+ "cells": [
+  {
+   "cell_type": "code",
+   "execution_count": 16,
+   "id": "74bab3e4-9cf5-4942-9ea5-85f92adcdfd4",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "This function  belongs to parents class\n",
+      "This function belongs to child class\n"
+     ]
+    }
+   ],
+   "source": [
+    "class Parent:\n",
+    "    def func1(self):\n",
+    "      print(\"This function  belongs to parents class\")\n",
+    "class Child(Parent):\n",
+    "      def func2(self):\n",
+    "        print(\"This function belongs to child class\")\n",
+    "object=Child()\n",
+    "object.func1()\n",
+    "object.func2()\n",
+    "          \n",
+    "        "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": 21,
+   "id": "e7db8eb3-b30c-41c3-a88d-3adece086b65",
+   "metadata": {},
+   "outputs": [
+    {
+     "name": "stdout",
+     "output_type": "stream",
+     "text": [
+      "This function belongs to child class\n"
+     ]
+    }
+   ],
+   "source": [
+    "class parent:\n",
+    "    def func1(self):\n",
+    "      print(\"this function belongs to parent class\")\n",
+    "class child(parent):\n",
+    "    def func1(self):\n",
+    "      print(\"This function belongs to child class\")\n",
+    "object=child()\n",
+    "object.func1()\n",
+    "    "
+   ]
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "f089ab7a-333f-466e-ae54-499fcead3256",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ddcac3a9-2505-4221-a043-eb5a78f63496",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "0e8a24b5-c0ae-426d-bed1-d31db455ae76",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "53b96207-acc2-4d0e-9ce1-ddf87d5fe632",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "623dae8c-76ce-46ba-88f7-25e14f15fd2d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "e740b530-48b3-4c61-9831-00fc1b0362da",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "934ace49-0c84-43f5-8c68-3727d09061f2",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "edd81fe6-71b9-4d7b-b8e6-402bec851439",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "7c57c57d-073a-4421-be66-cc69aa9f972e",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "ac10d232-bc12-484f-9c46-3998f632e175",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "495cea11-8a72-4121-bfa7-50688ffbdb42",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "4c10c4c5-9aa0-4c0a-a182-25184dc93660",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  },
+  {
+   "cell_type": "code",
+   "execution_count": null,
+   "id": "708baaf3-1cd5-4fdc-8cdd-6b8d0e57151d",
+   "metadata": {},
+   "outputs": [],
+   "source": []
+  }
+ ],
+ "metadata": {
+  "kernelspec": {
+   "display_name": "Python [conda env:base] *",
+   "language": "python",
+   "name": "conda-base-py"
+  },
+  "language_info": {
+   "codemirror_mode": {
+    "name": "ipython",
+    "version": 3
+   },
+   "file_extension": ".py",
+   "mimetype": "text/x-python",
+   "name": "python",
+   "nbconvert_exporter": "python",
+   "pygments_lexer": "ipython3",
+   "version": "3.13.9"
+  }
+ },
+ "nbformat": 4,
+ "nbformat_minor": 5
+}
